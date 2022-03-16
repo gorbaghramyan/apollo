@@ -16,10 +16,10 @@ const PostForm: React.FC = () => {
   return (
     <div className="post-form">
       <form onSubmit={onSubmit}>
-          <label>Title</label>
-          <input type="text" {...register('title')} />
-          <label>Body</label>
-          <textarea {...register('body')} />
+        <label>Title</label>
+        <input type="text" {...register('title')} />
+        <label>Body</label>
+        <textarea {...register('body')} />
         <input type="submit" />
       </form>
     </div>
